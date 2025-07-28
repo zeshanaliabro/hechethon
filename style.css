@@ -314,7 +314,7 @@ padding: 60px 10px;
 }
 
 
-
+ 
 
 
 
@@ -330,6 +330,7 @@ padding: 60px 10px;
     width: 100%;
   }
   .navbar {
+    flex-direction: column;
     display: flex;
   }
   .logo {
@@ -375,16 +376,115 @@ padding: 60px 10px;
     height: 232px;
   }
     .right-side{
+      width: 100%;
+      margin-top: 30px;
+      text-align: center;
       padding: 0;
     }
   .right-side h1{
     font-size: 19px;
   }
    .left-side {
+    text-align: center;
+    margin-top: 10px;
     width: 100%;
    }
   .left-side img{
     width: 100%;
     
   }
+  span{
+    font-size: 12px;
+  }
+  .header-container {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .work{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .gif img{
+    width: 100%;
+
+  }
+  .gif{
+    width: 100%;
+  }
+  .worktext h1{
+    font-size: 20px;
+    /* gap: 30px; */
+  }
+  .worktext h2{
+    font-size: 20px;
+  }
+  .work div{
+width: 100%;
+  }
+  .worktext p{
+    font-size: 13px;
+  }
+  .powered{
+    padding: 0;
+    margin-top: 630px;
+  }
+  .powered h1{
+    font-size: 20px;
+  }
+  .div{
+    padding: 0;
+  }
+  .powered p{
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .score {
+    padding: 0;
+    margin-top: 200px;
+  }
+  .upload-box{
+    padding: 0;
+    width: 100%;
+  }
+
+
+
+  .footer {
+    display: flex;
+    padding: 0;
+  }
+  .Hiring-mine {
+    padding: 0;
+  }
+  .Hiring-mine P {
+    display: flex;
+    font-size: 10px;
+  }
+  .Hiring-mine img {
+    width: 100px;
+  }
+  .contact {
+    margin-top: 36px;
+    padding: 0;
+  }
+  .contact ul {
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  .contact h3 {
+    position: absolute;
+    top: 1px;
+    font-size: 13px;
+    right: 110px;
+  }
+  .icons i {
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 4;
+    gap: 10px;
+  }
+  
 }
